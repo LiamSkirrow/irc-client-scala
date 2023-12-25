@@ -10,7 +10,6 @@ lazy val root = project
 
     libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
     libraryDependencies += "org.scalafx" %% "scalafx" % "16.0.0-R24",
-    // libraryDependencies += "org.openjfx" % "javafx" % "12.0.2" pomOnly()
     
     // ScalaFX requires JavaFX
     libraryDependencies ++= {
